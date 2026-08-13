@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #101214;
+  --bg-secondary: #191C20;
+  --bg-card: #22262C;
+
+  --primary: #FF6B6B;
+  --primary-hover: #FF8787;
+
+  --text-primary: #F5F7FA;
+  --text-secondary: #C5CDD8;
+  --text-muted: #96A0AD;
+
+  --border: #343942;
+
+  --success: #22C55E;
+  --warning: #F59E0B;
+  --danger: #EF4444;
+
+  --shadow: rgba(0,0,0,.35);
+}
+*{
+    user-select: none;
+}
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  background-color: var(--bg-primary);
+}
