@@ -56,7 +56,7 @@ const links = [
         <a
           href={link.href}
           className="relative text-lg text-(--text-secondary)
-          hover:text-(--primary) transition duration-300
+          hover:text-(--primary) transition duration-300 
           after:absolute after:left-0 after:-bottom-1 after:h-0.5
           after:w-0 after:bg-(--primary) after:transition-all
           hover:after:w-full"
@@ -89,7 +89,7 @@ const links = [
                     to={link.href}
                     onClick={() => setMenuOpen(false)}
                     className={({ isActive }) =>
-                      `block rounded-lg px-4 py-3 transition-colors duration-300
+                      `block rounded-lg px-4 py-3 transition-colors duration-300 bg-(--primary)
                       ${
                         isActive
                           ? "bg-(--primary) text-(--text-primary)"
