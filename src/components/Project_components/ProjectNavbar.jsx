@@ -1,4 +1,11 @@
+import { NavLink } from "react-router-dom";
+
 const ProjectNavbar = () => {
+  const linkClass = ({ isActive }) =>
+    isActive
+      ? "text-(--primary) font-medium"
+      : "text-(--text-secondary) hover:text-(--primary) transition-colors duration-300";
+
   return (
     <nav className="bg-(--bg-primary) px-6 py-6 border-b border-(--border)">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
@@ -11,30 +18,21 @@ const ProjectNavbar = () => {
         {/* Navigation */}
         <ul className="flex text-lg items-center gap-8">
           <li>
-            <a
-              href="/"
-              className="text-(--text-secondary) hover:text-(--primary) transition-colors duration-300"
-            >
+            <NavLink to="/" className={linkClass}>
               Home
-            </a>
+            </NavLink>
           </li>
 
           <li>
-            <a
-              href="/projects"
-              className="text-(--primary) font-medium"
-            >
+            <NavLink to="/projects" className={linkClass}>
               Projects
-            </a>
+            </NavLink>
           </li>
 
           <li>
-            <a
-              href="/upcomingprojects"
-              className="text-(--text-secondary) hover:text-(--primary) transition-colors duration-300"
-            >
+            <NavLink to="/upcomingprojects" className={linkClass}>
               Upcoming
-            </a>
+            </NavLink>
           </li>
         </ul>
 
