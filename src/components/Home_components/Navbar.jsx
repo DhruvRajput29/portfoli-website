@@ -80,31 +80,41 @@ const links = [
 
         {/* Mobile Menu */}
         {menuOpen && (
-          <div className="md:hidden pb-6">
-            <ul className="flex flex-col gap-4 rounded-xl bg-(--bg-card) border border-(--border) p-6">
+  <div className="md:hidden pb-6">
+    <ul className="flex flex-col gap-4 rounded-xl bg-(--bg-card) border border-(--border) p-6">
 
-              {links.map((link) => (
-                <li key={link.name}>
-                  <NavLink
-                    to={link.href}
-                    onClick={() => setMenuOpen(false)}
-                    className={({ isActive }) =>
-                      `block rounded-lg px-4 py-3 transition-colors duration-300 bg-(--primary)
-                      ${
-                        isActive
-                          ? "bg-(--primary) text-(--text-primary)"
-                          : "text-(--text-secondary) hover:bg-(--primary) hover:text-(--text-primary)"
-                      }`
-                    }
-                  >
-                    {link.name}
-                  </NavLink>
-                </li>
-              ))}
+      {links.map((link) => (
+        <li key={link.name}>
+          {link.type === "route" ? (
+            <NavLink
+              to={link.href}
+              onClick={() => setMenuOpen(false)}
+              className={({ isActive }) =>
+                `block rounded-lg px-4 py-3 transition-colors duration-300 bg-(--primary)
+                ${
+                  isActive
+                    ? "bg-(--primary) text-(--text-primary)"
+                    : "text-(--text-secondary) hover:bg-(--primary) hover:text-(--text-primary)"
+                }`
+              }
+            >
+              {link.name}
+            </NavLink>
+          ) : (
+            <a
+              href={link.href}
+              onClick={() => setMenuOpen(false)}
+              className="block rounded-lg px-4 py-3 text-(--text-secondary) transition-colors duration-300 bg-(--primary) hover:bg-(--primary) hover:text-(--text-primary)"
+            >
+              {link.name}
+            </a>
+          )}
+        </li>
+      ))}
 
-            </ul>
-          </div>
-        )}
+    </ul>
+  </div>
+)}
       </div>
     </nav>
   );
