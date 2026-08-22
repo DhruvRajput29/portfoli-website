@@ -26,8 +26,8 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen bg-(--bg-primary) text-(--text-primary) px-6 sm:px-10 lg:px-20 py-12 flex items-center">
-      <div className="max-w-7xl mx-auto w-full flex flex-col-reverse lg:flex-row items-center justify-between gap-16">
+    <section className=" bg-(--bg-primary) text-(--text-primary) px-6 sm:px-10 lg:px-20 py-12 flex items-center m-0 ">
+      <div className="max-w-8xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-16 ">
 
         {/* Left */}
         <div className="text-center lg:text-left max-w-2xl">
@@ -105,7 +105,7 @@ const Hero = () => {
         </div>
 
         {/* Right */}
-        <div className="flex justify-center">
+        <div className="flex justify-center ">
 
           <div className="relative">
 
@@ -114,7 +114,7 @@ const Hero = () => {
             <img
               src={profile}
               alt="Dhruv Rajput"
-              className="relative w-64 sm:w-80 lg:w-105 rounded-full border-(--primary) object-cover shadow-2xl"
+              className="relative w-64 sm:w-80 lg:w-90 rounded-full border-(--primary) object-cover shadow-2xl"
             />
 
           </div>

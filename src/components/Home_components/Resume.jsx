@@ -5,9 +5,9 @@ const Resume = () => {
   return (
     <section
       id="resume"
-      className="bg-(--bg-primary) py-20 px-6 md:px-12 lg:px-24"
+      className="bg-(--bg-primary) py-12 px-6 md:px-12 lg:px-24"
     >
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-6xl mx-auto">
 
         <div className="bg-(--bg-card) border border-(--border) rounded-3xl shadow-xl p-8 md:p-12 text-center">
 

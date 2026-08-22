@@ -1,10 +1,18 @@
 const About = () => {
+  const techskills = [
+    "React",
+    "Node.js",
+    "PHP",
+    "JavaScript",
+    "MySQL",
+    "Git",
+    "GitHub"];
   return (
     <section
       id="about"
-      className="bg-(--bg-primary) py-20 px-6 md:px-12 lg:px-18 m-0"
+      className="bg-(--bg-primary) py-12 px-6 md:px-12 md:m-0 lg:px-18 lg:m-0 flex justify-center"
     >
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl w-full m-0 p-0">
 
         <h2 className="text-4xl md:text-5xl font-bold text-center text-(--text-primary)">
           About Me
@@ -44,15 +52,7 @@ const About = () => {
             </h3>
 
             <div className="flex flex-wrap gap-3">
-              {[
-                "React",
-                "Node.js",
-                "PHP",
-                "JavaScript",
-                "MySQL",
-                "Git",
-                "GitHub",
-              ].map((tech) => (
+              {techskills.map((tech) => (
                 <span
                   key={tech}
                   className="px-4 py-2 rounded-full border border-(--border) text-(--text-secondary) hover:bg-(--primary) hover:text-white transition text-lg"

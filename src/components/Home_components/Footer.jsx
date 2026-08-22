@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-(--bg-primary) border-t border-(--border) py-10 px-6">
+    <footer className="bg-(--bg-primary) border-t border-(--border) py-8 px-6">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
 
         {/* Left */}
@@ -133,8 +133,14 @@ const Footer = () => {
 
       {/* Divider */}
       <div className="border-t border-(--border) mt-6 pt-6 text-center">
-        <p className="text-(--text-secondary) text-sm">
-          © {new Date().getFullYear()} Dhruv Rajput. All Rights Reserved.
+        <p className="text-(--text-secondary) capitalize text-lg">
+           {new Date().getFullYear()} Made By 
+           <a 
+           href="https://www.linkedin.com/in/dhruv-rajput-29feb2006/" 
+           target="_blank"
+           className="hover:text-blue-400"
+           >
+           <b> Dhruv Rajput</b> </a>. 
         </p>
       </div>
     </footer>

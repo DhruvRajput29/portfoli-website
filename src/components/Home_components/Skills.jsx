@@ -27,9 +27,9 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="bg-(--bg-primary) py-20 px-6 md:px-12 lg:px-24"
+      className="bg-(--bg-primary) py-12 px-6 md:px-12 lg:px-24"
     >
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-6xl mx-auto">
 
         {/* Heading */}
         <h2 className="text-4xl md:text-5xl font-bold text-center text-(--text-primary)">

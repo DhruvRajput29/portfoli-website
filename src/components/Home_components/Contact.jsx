@@ -94,9 +94,9 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="bg-(--bg-primary) py-20 px-6 md:px-12 lg:px-24"
+      className="bg-(--bg-primary) py-12 px-6 md:px-12 lg:px-24"
     >
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-6xl mx-auto">
 
         <h2 className="text-4xl md:text-5xl font-bold text-center text-(--text-primary)">
           Contact Me
