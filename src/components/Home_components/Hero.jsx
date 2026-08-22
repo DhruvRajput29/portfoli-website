@@ -13,7 +13,7 @@ const Hero = () => {
           url: portfolioUrl,
         });
       } catch (error) {
-        // User cancelled sharing
+        alert("it's not working devloper will solve this");
       }
     } else {
       try {
