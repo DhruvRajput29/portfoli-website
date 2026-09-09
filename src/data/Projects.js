@@ -1,8 +1,8 @@
-import clutterThumbnail from "../assets/project-thumbnail/clutter-thumbnail.png";
-import musicfyThumbnail from "../assets/project-thumbnail/musicfy-thumbnail.png";
-import weatherThumbnail from "../assets/project-thumbnail/weather-forecast-thumbnail.png";
-import portfolioThumbnail from "../assets/project-thumbnail/portfolio-thumbnail.png";
-import myFirstWebsiteThumbnail from "../assets/project-thumbnail/myfirstwebsite-thumbnail.png";
+import clutterThumbnail from "../assets/project-thumbnail/clutter-thumbnail.webp";
+import musicfyThumbnail from "../assets/project-thumbnail/musicfy-thumbnail.webp";
+import weatherThumbnail from "../assets/project-thumbnail/myfirstwebsite-thumbnail.webp";
+import portfolioThumbnail from "../assets/project-thumbnail/portfolio-thumbnail.webp";
+import myFirstWebsiteThumbnail from "../assets/project-thumbnail/weather-forecast-thumbnail.webp";
 
 const projects = [
   {
