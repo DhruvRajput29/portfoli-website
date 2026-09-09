@@ -13,15 +13,15 @@ import { SiMysql } from "react-icons/si";
 
 const Skills = () => {
   const skills = [
-    { name: "HTML", icon: <FaHtml5 className="text-orange-500" /> },
-    { name: "CSS", icon: <FaCss3Alt className="text-blue-500" /> },
-    { name: "JavaScript", icon: <FaJsSquare className="text-yellow-400" /> },
-    { name: "React", icon: <FaReact className="text-cyan-400" /> },
-    { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
+    { name: "HTML", icon: <FaHtml5 className="text-orange-500" aria-hidden="true" /> },
+    { name: "CSS", icon: <FaCss3Alt className="text-blue-500" aria-hidden="true" /> },
+    { name: "JavaScript", icon: <FaJsSquare className="text-yellow-400" aria-hidden="true" /> },
+    { name: "React", icon: <FaReact className="text-cyan-400" aria-hidden="true" /> },
+    { name: "Node.js", icon: <FaNodeJs className="text-green-500" aria-hidden="true" /> },
     { name: "PHP", icon: <FaPhp className="text-indigo-400" aria-hidden="true" /> },
-    { name: "MySQL", icon: <SiMysql className="text-sky-500" /> },
-    { name: "Git", icon: <FaGitAlt className="text-red-500" /> },
-    { name: "GitHub", icon: <FaGithub className="text-gray-200" /> },
+    { name: "MySQL", icon: <SiMysql className="text-sky-500" aria-hidden="true" /> },
+    { name: "Git", icon: <FaGitAlt className="text-red-500" aria-hidden="true" /> },
+    { name: "GitHub", icon: <FaGithub className="text-gray-200" aria-hidden="true" /> },
   ];
 
   return (
