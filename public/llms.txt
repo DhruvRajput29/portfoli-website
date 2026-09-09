@@ -1,0 +1,28 @@
+# Dhruv Rajput
+
+> Personal portfolio of Dhruv Rajput, a BCA student and web developer.
+
+## About
+
+Dhruv Rajput is a BCA student and web developer interested in building modern and responsive web applications.
+
+## Skills
+
+- HTML
+- CSS
+- JavaScript
+- React
+- Node.js
+- Express
+- Bootstrap
+- Tailwind CSS
+- PHP
+- MySQL
+- Git
+- GitHub
+
+## Portfolio
+
+- [Portfolio Home](https://portfolio.dhruv-rajput.workers.dev/)
+- [Projects](https://portfolio.dhruv-rajput.workers.dev/projects)
+- [Upcoming Projects](https://portfolio.dhruv-rajput.workers.dev/upcoming)

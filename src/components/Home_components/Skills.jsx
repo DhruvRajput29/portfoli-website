@@ -18,7 +18,7 @@ const Skills = () => {
     { name: "JavaScript", icon: <FaJsSquare className="text-yellow-400" /> },
     { name: "React", icon: <FaReact className="text-cyan-400" /> },
     { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
-    { name: "PHP", icon: <FaPhp className="text-indigo-400" /> },
+    { name: "PHP", icon: <FaPhp className="text-indigo-400" aria-hidden="true" /> },
     { name: "MySQL", icon: <SiMysql className="text-sky-500" /> },
     { name: "Git", icon: <FaGitAlt className="text-red-500" /> },
     { name: "GitHub", icon: <FaGithub className="text-gray-200" /> },
