@@ -9,11 +9,13 @@ const Home=()=>{
     return(
         <>
         <Navbar/>
+        <main>
       <Hero/>
       <About/>
       <Skills/>
       <Resume/>
       <Contact/>
+        </main>
       <Footer/>
         </>
     );

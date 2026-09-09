@@ -6,10 +6,12 @@ const Project = () => {
   return (
     <>
       <ProjectNavbar />
+      <main>
 
       <ProjectHero />
 
       <ProjectSection />
+      </main>
     </>
   );
 };

@@ -91,7 +91,7 @@ const projects = [
 
     demo: {
       enabled: true,
-      link: "/",
+      link: "https://portfolio.dhruv-rajput.workers.dev/",
     },
   },
 

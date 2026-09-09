@@ -1,4 +1,4 @@
-import profile from "../../assets/dhruv rajput.png";
+import profile from "../../assets/dhruv-rajput.webp";
 import resume from "../../assets/Dhruv_Rajput_Resume.pdf";
 
 const Hero = () => {
@@ -114,7 +114,11 @@ const Hero = () => {
             <img
               src={profile}
               alt="Dhruv Rajput"
-              className="relative w-64 sm:w-80 lg:w-90 rounded-full border-(--primary) object-cover shadow-2xl"
+              width="600"
+              height="738"
+              fetchPriority="high"
+              decoding="async"
+              className="relative w-64 sm:w-80 lg:w-90 rounded-full border-(--primary) object-cover"
             />
 
           </div>
