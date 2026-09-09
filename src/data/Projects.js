@@ -69,7 +69,7 @@ const projects = [
 
     demo: {
       enabled: true,
-      link: "/assets/weather forecast/index.html",
+      link: "/weather-forecast/index.html",
     },
   },
 
@@ -114,7 +114,7 @@ const projects = [
 
     demo: {
       enabled: true,
-      link: "/assets/myfirstwebsite/index.html",
+      link: "/myfirstwebsite/index.html",
     },
   },
 ];
