@@ -1,7 +1,6 @@
 const About = () => {
   const techskills = [
     "React",
-    "Node.js",
     "PHP",
     "JavaScript",
     "MySQL",
