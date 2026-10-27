@@ -3,7 +3,6 @@ import {
   FaCss3Alt,
   FaJsSquare,
   FaReact,
-  FaNodeJs,
   FaPhp,
   FaGitAlt,
   FaGithub,
